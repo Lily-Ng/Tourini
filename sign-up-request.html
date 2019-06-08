@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Signing Up</title>
+<link rel="stylesheet" type="text/css" href="signup-screen-style.css">
+</head>
+<body>
+<?php
+
+$mysqli = new mysqli("localhost", "root", "505Logto", "tourini");
+
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
+?>
+<a href = "main.html">Log in now</a>
+</body>
+</html>

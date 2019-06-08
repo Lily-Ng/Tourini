@@ -1,0 +1,132 @@
+body{
+	background-color: #261a0d;
+	background-image: url("http://localhost/signup-request.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1{
+	color: white;
+	background-color: #261a0d;
+	font-family: Brush Script MT;
+	font-size: 50px;
+	position: relative;
+	height: 70px;
+	top: -10px;
+	left: -10px;
+	padding: 20px 30px;
+	z-index: 10;
+}
+
+.content-holder{
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: -999;
+}
+
+.white-decor{
+	position: absolute;
+	top: 105px;
+	height: 30px;
+	left: 0px;
+	width: 950px;
+	opacity: 0.7;
+	z-index: 10;
+	display: inline-block;
+	background-color: white;
+	transition:5s;
+	-webkit-transition:2s;
+	-moz-transition:2s;
+}
+
+.white-decor:hover{
+	transition:5s;
+	-webkit-transition:2s;
+	-moz-transition:2s;
+	width: 300px;
+}
+
+.greeting{
+	color: #261a0d;
+	position: absolute;
+	top: 60px;
+	font-family: Brush Script MT;
+	font-size: 40px;
+	right: 20px;
+}
+
+.nav-menu{
+	background-color: #261a0d;
+	height: 100%;
+	width: 188px;
+	position: relative;
+	top: -10px;
+	left: -10px;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 15px;
+}
+
+.nav-menu ul{
+	position: relative;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	list-style-type: none;
+	margin-top: 150px;
+}
+
+
+.nav-menu li a{
+	position: relative;
+	left: -45px;
+	float: left;
+	display: block;
+	background-color: #261a0d;
+	color: white;
+	padding: 5px;
+	height: 30px;
+	padding-top: 10px;
+	text-decoration: none;
+	border-radius: 10px;
+	margin: 2px;
+	width: 100%;
+}
+
+.nav-menu  ul li a:hover{
+	font-size: 17px;
+	padding-left: 50px;
+}
+
+.main-content{
+	display: block;
+	padding: 10px 5px;
+	width: 900px;
+	min-height: 580px;
+	font-family: Arial;
+	font-size: 14px;
+	border-style: solid;
+    border-width: 5px;
+	border-color: white;
+	border-radius: 25px;
+	opacity: 0.9;
+	position: fixed;
+	top: 140px;
+	left: 200px;
+	background-color: white;
+}
+.name{
+	font-size: 20px;
+	font-weight: bold;
+}
+.post-content{
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 25px;
+	padding: 5px 15px;
+}
+
+.post{
+	padding: 10px;
+}

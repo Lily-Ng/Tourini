@@ -1,0 +1,61 @@
+body{
+	background-color: #261a0d;
+	background-image: url("http://localhost/signup-request.jpg");
+	background-size: 120%;
+}
+.login-message{
+	display: block;
+	background-color: white;
+	opacity: 0.8;
+	text-align: center;
+	margin: 30px;
+	padding: 20px;
+	position: absolute;
+	top: 43%;
+	left: 300px;
+	width: 500px;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 15px 50px;
+	border-color: #c2efef;
+	box-shadow: 0 0 50px 50px #fff; 
+}
+
+.white-decor{
+	position: absolute;
+	top: 200px;
+	height: 30px;
+	left: 0px;
+	width: 950px;
+	opacity: 0.7;
+	display: inline-block;
+	background-color: white;
+	transition:5s;
+	-webkit-transition:2s;
+	-moz-transition:2s;
+}
+
+.white-decor:hover{
+	transition:5s;
+	-webkit-transition:2s;
+	-moz-transition:2s;
+	width: 300px;
+}
+
+h1{
+	color: black;
+	font-family: Brush Script MT;
+	font-size: 50px;
+	position: relative;
+	left: 20px;
+	top: 90px;
+}
+
+h5{
+	color: black;
+	position: relative;
+	left: 710px;
+	top: 210px;
+	width: 300px;
+	text-align: right;
+}
