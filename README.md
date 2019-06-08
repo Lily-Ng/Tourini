@@ -10,8 +10,8 @@ This project is designed to be hosted locally with wampserver.
 5. Access the landing page http://localhost/main.html
 
 # Technology
-- HTML\
-- CSS\
-- PHP\
-- MySQL\
-- Wampserver\
+- HTML
+- CSS
+- PHP
+- MySQL
+- Wampserver
