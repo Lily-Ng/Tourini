@@ -1,6 +1,9 @@
 # Tourini
 social media platform for tourists to connect with others and blog their adventures
 
+# Preview
+See tour.mp4 for preview
+
 # How to Access
 This project is designed to be hosted locally with wampserver.
 1. Download and run wampserver http://www.wampserver.com/en/
